@@ -1,0 +1,24 @@
+body {
+  background-color: #f6f7f1;
+}
+
+
+.formLogin {
+  padding: 30px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 50%;
+  border: 2px solid #e47599;
+  border-radius: 10px;
+  background-color: #f6ffb0;
+}
+
+.botaoLogin{
+  background-color: #e47599;
+  border: 1px #e25f89 solid;
+}
+
+.botaoLogin:hover {
+  border: 1px #e25f89 solid;
+  background-color: #e94a7c;
+}

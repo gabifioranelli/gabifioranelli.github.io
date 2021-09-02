@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  color: rgb(66, 66, 66);
+}
+
+#cabecalho {
+  background-color: #effd85;
+}
+
+.botoesHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#cabecalho .row div {
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo1 {
+  width: 18%;
+  padding-right: 100px;
+}
+
+.marca {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xxx-large;
+  font-weight: 100;
+  text-decoration: overline underline;
+  text-decoration-color: #e47599;
+  color: rgb(94, 94, 94);
+}
+
+.nav {
+  background-color: #e4ff1a;
+  border-bottom: #e47599 solid 2px;
+}
+
+.nav a {
+  color: rgb(94, 94, 94);
+}
+
+.nav a:hover {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-color: #e47599;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+  background-color: #e47599;
+  color: white;
+}
+
+
+
+.dropdown-menu {
+  left: 30%;
+}
+
+#corpoSite {
+ background-color: #f6f7f1;
+}
+
+.seta {
+  display: none;
+  cursor: pointer;
+}
+
+.seta img {
+  width: 48px;
+  position: fixed;
+  bottom: 70px;
+  right: 5px;
+}
+
+.banner {
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row dense;
+  grid-template-areas:
+    "area-1 area-2 area-4"
+    "area-1 area-3 area-4";
+}
+
+.area-1 { grid-area: area-1; }
+
+.area-1 img {
+  width: 100%;
+}
+
+.area-2 { grid-area: area-2; }
+
+.area-2 img {
+  width: 100%;
+}
+
+.area-3 { grid-area: area-3; }
+
+.area-3 img {
+  width: 100%;
+}
+
+.area-4 { grid-area: area-4; }
+
+.area-4 img {
+  width: 100%;
+}
+
+.container img {
+  width: 100%;
+  margin: 15px;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  max-width: 1600px;
+}
+
+.cardsCompra, .cardProcurados {
+  margin-bottom: 200px;
+  text-align: center;
+}
+
+
+.imagem {
+  opacity: 1;
+  transition: .5s ease;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgb(99 98 98);
+}
+
+.categoriaCompra:hover .imagem {
+  opacity: 0.6;
+}
+
+
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border-top: #e47599 solid;
+  background-color: #effd85;
+}
+
+footer h2 {
+  font-weight: bold;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a{
+  text-decoration: none;
+  color: rgb(94, 94, 94);
+}
+
+footer a:hover{
+  font-weight: bold;
+  color: rgb(78, 78, 78);
+  text-decoration: none;
+}
+
+.caixasFooter {
+  display: grid;
+  grid-template-columns: 30em 23em 21em 21em 20em;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row dense;
+  grid-template-areas:
+    "logo categorias sobre-nós ajuda redes"
+    "copright copright copright copright copright";
+}
+
+.logo {
+  display: grid;
+  grid-area: logo;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.categorias { 
+  display: grid;
+  justify-content: center;
+  grid-area: categorias; 
+}
+
+.sobre-nós { 
+  grid-area: sobre-nós; 
+  display: grid;
+  justify-content: center;
+}
+
+.ajuda { 
+  grid-area: ajuda; 
+  display: grid;
+  justify-content: center;
+}
+
+.redes { 
+  grid-area: redes; 
+  display: grid;
+  justify-content: center;
+}
+
+.copyright { 
+  grid-area: copright; 
+  display: grid;
+  justify-content: center;
+  font-size: small;
+}
+
+.caixa {
+  margin-top: 40px;
+  width: 12em;
+}
+
+.redes .lista {
+  margin-left: 30px;
+}
+
+.redes img {
+  margin: 2px;
+  width: 1.7em;
+  opacity: 0.6;
+}
+
